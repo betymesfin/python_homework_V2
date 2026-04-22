@@ -32,7 +32,7 @@ def greet():
 @logger_decorator
 def check_values(*args):
     print("args:", args)
-    # return True
+    return True
 
 @logger_decorator
 def return_decorator(**kwargs):
